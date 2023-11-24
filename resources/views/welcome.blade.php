@@ -9,9 +9,9 @@
 
         @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 
-        <!-- Styles -->
-        <style>
-        </style>
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+
     </head>
 
     <body class="">
@@ -56,6 +56,9 @@
                 </div>
             </div>
         </header>
+
+        <h1 class="bg-yellow">valami</h1>
+        <p class="blue">p-eleme</p>
     </body>
 
 </html>
